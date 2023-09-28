@@ -1,0 +1,141 @@
+/* Add this CSS to your project */
+
+/* Style for the container */
+.container-fluid {
+  margin-top: 20px;
+}
+
+/* Style for the input fields and labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style for the button */
+button {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style for the room name */
+p {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Style for the room */
+.room {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+/* Style for rows */
+.row {
+  display: flex;
+}
+
+/* Style for boxes */
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin: 2px;
+  cursor: pointer; /* Add this to make the boxes clickable */
+}
+
+/* Style for red boxes */
+.alloted {
+  background-image: linear-gradient(#19105b, #472067, #7c3375, #FF6196);
+  border: 1px solid #ccc; 
+  color: white !important;
+  font-weight: bold;
+}
+
+.not-alloted{
+  background-color: lightblue;
+}
+.icon-alloted{
+  color: white !important;
+  text-align: center;
+ 
+}
+/* .room-container{
+  background-color:#19105b;
+  margin: 10px;
+  text-align: center;
+} */
+
+.room-number{
+  color: #19105b;
+  font-weight: bold;
+}
+
+.room-icon{
+  color: #FF6196;
+}
+
+
+
+table{
+ 
+  width: 100%;
+}
+
+table th {
+  padding: 0.8rem;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1rem;
+  background: #19105b !important;
+  font-weight: bold;
+  position: sticky;
+  color: aliceblue;
+}
+
+table th,
+table td {
+  width: 10%; 
+  text-align: center; 
+  vertical-align: middle;
+  font-size: 1rem;
+  padding: 0.6rem;
+  font-weight: bold;
+  
+
+}
+
+.dashboard-nav{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+hr {
+  height: 2px; 
+  background-color: #19105b;
+  border: none; 
+ 
+}
+
+.admin-table{
+  margin-top: 1vh;
+}
+
+.buttons, .buttons:hover{
+  background-color: #19105b;
+  color: white;
+}
